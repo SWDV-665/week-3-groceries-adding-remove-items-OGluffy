@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Groceries</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item>
+        <h2>Milk</h2>
+          <p>1</p>
+        </ion-item>
+        <ion-item-options>
+          <button ion-button color="secondary" icon-start>
+            <ion-icon name="Trash"></ion-icon>
+            Done
+          </button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <h2>Bread</h2>
+          <p>2</p>
+        </ion-item>
+        <ion-item-options>
+          <button ion-button color="secondary" icon-start>
+            <ion-icon name="Trash"></ion-icon>
+            Done
+          </button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <h2>Mangos</h2>
+          <p>3</p>
+        </ion-item>
+        <ion-item-options>
+          <button ion-button color="secondary" icon-start>
+            <ion-icon name="Trash"></ion-icon>
+            Done
+          </button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <h2>Cilantra</h2>
+          <p>1</p>
+        </ion-item>
+        <ion-item-options>
+          <button ion-button color="secondary" icon-start>
+            <ion-icon name="Trash"></ion-icon>
+            Done
+          </button>
+      </ion-item-options>
+    </ion-item-sliding>
+    <ion-item-sliding>
+      <ion-item>
+        <h2>Steak</h2>
+          <p>3</p>
+        </ion-item>
+        <ion-item-options>
+          <button ion-button color="secondary" icon-start>
+            <ion-icon name="Trash"></ion-icon>
+            Done
+          </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
+
+<ion-fab top right padding>
+  <button ion-fab (click)="addItem()" mini><ion-icon name="add"></ion-icon></button>
